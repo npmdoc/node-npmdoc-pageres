@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/pageres.png?downloads=true)](https://www.npmjs.com/package/pageres)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-pageres/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-pageres_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pageres/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-pageres/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-pageres_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pageres/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-pageres/build/screenCapture.npmPackageListing.svg)
 
