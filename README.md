@@ -1,9 +1,14 @@
-# api documentation for  [pageres (v4.4.0)](https://github.com/sindresorhus/pageres#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pageres.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pageres) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pageres.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pageres)
+# npmdoc-pageres
+
+#### api documentation for  [pageres (v4.4.0)](https://github.com/sindresorhus/pageres#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pageres.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pageres) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pageres.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pageres)
+
 #### Capture website screenshots
 
-[![NPM](https://nodei.co/npm/pageres.png?downloads=true)](https://www.npmjs.com/package/pageres)
+[![NPM](https://nodei.co/npm/pageres.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pageres)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-pageres/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-pageres_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pageres/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-pageres/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-pageres/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-pageres/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pageres/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-pageres/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "babel": {
@@ -127,21 +131,17 @@
     "main": "dist/index.js",
     "maintainers": [
         {
-            "name": "kevva",
-            "email": "kevinmartensson@gmail.com"
+            "name": "kevva"
         },
         {
-            "name": "samverschueren",
-            "email": "sam.verschueren@gmail.com"
+            "name": "samverschueren"
         },
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "pageres",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/pageres.git"
@@ -161,16 +161,6 @@
     }
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module pageres](#apidoc.module.pageres)
-
-
-
-# <a name="apidoc.module.pageres"></a>[module pageres](#apidoc.module.pageres)
 
 
 
