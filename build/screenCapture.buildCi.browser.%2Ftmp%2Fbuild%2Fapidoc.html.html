@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/sindresorhus/pageres#readme"
-
-    >pageres (v4.4.0)</a>
+    <a href="https://github.com/sindresorhus/pageres#readme">pageres (v4.4.0)</a>
 </h1>
 <h4>Capture website screenshots</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.pageres">module pageres</a><ol>
 
@@ -91,8 +84,8 @@
 		super();
 
 		this.options = (0, _assign2.default)({}, options);
-		this.options.filename = this.options.filename || &#x27;&#x3c;%= url %&#x3e;-&#x3c;%= size %&#x3e;&#x3c;%= crop %&#x3e;&#x27;;
-		this.options.format = this.options.format || &#x27;png&#x27;;
+		this.options.filename = this.options.filename || '&lt;%= url %&gt;-&lt;%= size %&gt;&lt;%= crop %&gt;';
+		this.options.format = this.options.format || 'png';
 		this.options.incrementalName = this.options.incrementalName || false;
 
 		this.stats = {};
@@ -131,16 +124,16 @@
 				const keywords = (0, _arrayDiffer2.default)(src.sizes, sizes);
 
 				if (!src.url) {
-					throw new Error(&#x27;URL required&#x27;);
+					throw new Error('URL required');
 				}
 
 				_this.urls.push(src.url);
 
-				if (sizes.length === 0 &#x26;&#x26; keywords.indexOf(&#x27;w3counter&#x27;) !== -1) {
+				if (sizes.length === 0 &amp;&amp; keywords.indexOf('w3counter') !== -1) {
 					return _this.resolution(src.url, options);
 				}
 
-				if (keywords.length &#x3e; 0) {
+				if (keywords.length &gt; 0) {
 					return _this.viewport({ url: src.url, sizes: sizes, keywords: keywords }, options);
 				}
 
@@ -195,16 +188,16 @@
 
 		const files = [];
 
-		const end = () =&#x3e; _promise2.default.all(files.map(file =&#x3e; (0, _pify2.default)(_rimraf2.default)(file)));
+		const end = () =&gt; _promise2.default.all(files.map(file =&gt; (0, _pify2.default)(_rimraf2.default)(file)));
 
 		if (!listener) {
-			listener = process.on(&#x27;SIGINT&#x27;, (0, _asyncToGenerator3.default)(function* () {
+			listener = process.on('SIGINT', (0, _asyncToGenerator3.default)(function* () {
 				yield end();
 				process.exit(1);
 			}));
 		}
 
-		return _promise2.default.all(streams.map(stream =&#x3e; new _promise2.default((() =&#x3e; {
+		return _promise2.default.all(streams.map(stream =&gt; new _promise2.default((() =&gt; {
 			var _ref2 = (0, _asyncToGenerator3.default)(function* (resolve, reject) {
 				yield (0, _pify2.default)(_mkdirp2.default)(_this4.dest());
 
@@ -213,9 +206,9 @@
 
 				files.push(write.__atomicTmp);
 
-				stream.on(&#x27;warning&#x27;, _this4.emit.bind(_this4, &#x27;warning&#x27;));
-				stream.on(&#x27;warn&#x27;, _this4.emit.bind(_this4, &#x27;warn&#x27;));
-				stream.on(&#x27;error&#x27;, (() =&#x3e; {
+				stream.on('warning', _this4.emit.bind(_this4, 'warning'));
+				stream.on('warn', _this4.emit.bind(_this4, 'warn'));
+				stream.on('error', (() =&gt; {
 					var _ref3 = (0, _asyncToGenerator3.default)(function* (err) {
 						yield end();
 						reject(err);
@@ -226,8 +219,8 @@
 					};
 				})());
 
-				write.on(&#x27;finish&#x27;, resolve);
-				write.on(&#x27;error&#x27;, (() =&#x3e; {
+				write.on('finish', resolve);
+				write.on('error', (() =&gt; {
 					var _ref4 = (0, _asyncToGenerator3.default)(function* (err) {
 						yield end();
 						reject(err);
@@ -261,3 +254,4 @@
     ]
 </div>
 </div>
+</body></html>
