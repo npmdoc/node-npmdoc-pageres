@@ -1,6 +1,6 @@
 # npmdoc-pageres
 
-#### api documentation for  [pageres (v4.4.0)](https://github.com/sindresorhus/pageres#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pageres.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pageres) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pageres.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pageres)
+#### basic api documentation for  [pageres (v4.4.0)](https://github.com/sindresorhus/pageres#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pageres.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pageres) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pageres.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pageres)
 
 #### Capture website screenshots
 
@@ -158,7 +158,8 @@
         "rules": {
             "generator-star-spacing": "off"
         }
-    }
+    },
+    "bin": {}
 }
 ```
 
