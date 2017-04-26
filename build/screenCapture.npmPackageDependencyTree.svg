@@ -11,13 +11,13 @@
 <tspan x="10" y="138">  │ ├── core-js@2.4.1 </tspan>
 <tspan x="10" y="154">  │ └── regenerator-runtime@0.10.3 </tspan>
 <tspan x="10" y="170">  ├─┬ easydate@2.2.1 </tspan>
-<tspan x="10" y="186">  │ └─┬ mocha@3.2.0 </tspan>
+<tspan x="10" y="186">  │ └─┬ mocha@3.3.0 </tspan>
 <tspan x="10" y="202">  │   ├── browser-stdout@1.3.0 </tspan>
 <tspan x="10" y="218">  │   ├─┬ commander@2.9.0 </tspan>
 <tspan x="10" y="234">  │   │ └── graceful-readlink@1.0.1 </tspan>
-<tspan x="10" y="250">  │   ├─┬ debug@2.2.0 </tspan>
-<tspan x="10" y="266">  │   │ └── ms@0.7.1 </tspan>
-<tspan x="10" y="282">  │   ├── diff@1.4.0 </tspan>
+<tspan x="10" y="250">  │   ├─┬ debug@2.6.0 </tspan>
+<tspan x="10" y="266">  │   │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="282">  │   ├── diff@3.2.0 </tspan>
 <tspan x="10" y="298">  │   ├── escape-string-regexp@1.0.5 </tspan>
 <tspan x="10" y="314">  │   ├── growl@1.9.2 </tspan>
 <tspan x="10" y="330">  │   ├── json3@3.3.2 </tspan>
@@ -41,7 +41,7 @@
 <tspan x="10" y="618">  │ │ └── filename-reserved-regex@1.0.0 </tspan>
 <tspan x="10" y="634">  │ └─┬ humanize-url@1.0.1 </tspan>
 <tspan x="10" y="650">  │   ├─┬ normalize-url@1.9.1 </tspan>
-<tspan x="10" y="666">  │   │ ├─┬ query-string@4.3.3 </tspan>
+<tspan x="10" y="666">  │   │ ├─┬ query-string@4.3.4 </tspan>
 <tspan x="10" y="682">  │   │ │ └── strict-uri-encode@1.1.0 </tspan>
 <tspan x="10" y="698">  │   │ └─┬ sort-keys@1.1.2 </tspan>
 <tspan x="10" y="714">  │   │   └── is-plain-obj@1.1.0 </tspan>
@@ -69,7 +69,7 @@
 <tspan x="10" y="1066">  │ │ │ └── signal-exit@3.0.2 </tspan>
 <tspan x="10" y="1082">  │ │ ├── map-obj@1.0.1 </tspan>
 <tspan x="10" y="1098">  │ │ ├── minimist@1.2.0 </tspan>
-<tspan x="10" y="1114">  │ │ ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="1114">  │ │ ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="1130">  │ │ │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="1146">  │ │ │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="1162">  │ │ │ │ └── builtin-modules@1.1.1 </tspan>
@@ -152,7 +152,7 @@
 <tspan x="10" y="2394">  │ ├── file-url@2.0.2 </tspan>
 <tspan x="10" y="2410">  │ └── prepend-http@1.0.4 </tspan>
 <tspan x="10" y="2426">  ├─┬ rimraf@2.6.1 </tspan>
-<tspan x="10" y="2442">  │ └─┬ glob@7.0.5 </tspan>
+<tspan x="10" y="2442">  │ └─┬ glob@7.1.1 </tspan>
 <tspan x="10" y="2458">  │   ├── fs.realpath@1.0.0 </tspan>
 <tspan x="10" y="2474">  │   ├─┬ inflight@1.0.6 </tspan>
 <tspan x="10" y="2490">  │   │ └── wrappy@1.0.2 </tspan>
@@ -224,7 +224,7 @@
 <tspan x="10" y="3546">  │     │ │   ├─┬ dashdash@1.14.1 </tspan>
 <tspan x="10" y="3562">  │     │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="3578">  │     │ │   ├── ecc-jsbn@0.1.1 </tspan>
-<tspan x="10" y="3594">  │     │ │   ├─┬ getpass@0.1.6 </tspan>
+<tspan x="10" y="3594">  │     │ │   ├─┬ getpass@0.1.7 </tspan>
 <tspan x="10" y="3610">  │     │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="3626">  │     │ │   ├── jodid25519@1.0.2 </tspan>
 <tspan x="10" y="3642">  │     │ │   ├── jsbn@0.1.1 </tspan>
